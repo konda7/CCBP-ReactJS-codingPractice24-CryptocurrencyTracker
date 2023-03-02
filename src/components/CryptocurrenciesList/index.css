@@ -1,0 +1,76 @@
+.cryptocurrency-tracker-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #00e7ff;
+  text-align: center;
+}
+
+@media screen and (min-width: 568px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.crypto-img {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.crypto-list-container {
+  margin: 0;
+  padding: 0;
+  border: 4px solid #00e7ff;
+  border-radius: 10px;
+  width: 85%;
+}
+
+.list-heading-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 5px 20px;
+}
+
+@media screen and (min-width: 568px) {
+  .list-heading-container {
+    padding: 5px 30px;
+  }
+}
+
+.list-headings {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 568px) {
+  .list-headings {
+    font-size: 20px;
+  }
+}
+
+.list-headings-usd {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 568px) {
+  .list-headings-usd {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+}
+
+.values-heading-container {
+  display: flex;
+}
